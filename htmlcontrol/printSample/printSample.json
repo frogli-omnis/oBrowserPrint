@@ -1,0 +1,15 @@
+﻿{
+    "data": "data",
+    "options": {
+        "selectedcolor": 255,
+        "margin": 0,
+        "mainiconid": 1710,
+        "anothercolor": 0
+    },
+    "optionsDescriptions": {
+        "selectedcolor": "Description for selectedcolor option",
+        "margin": "Description for margin option",
+        "mainiconid": "Description for main icon id",
+        "anothercolor": "Description for another color"
+    }
+}

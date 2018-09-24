@@ -1,0 +1,59 @@
+﻿<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="css/jquery-ui-1.10.4.custom.css">
+	<script type="text/javascript" src="lib/jquery-1.11.0.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui-1.10.4.custom.min.js"></script>	
+	<script type="text/javascript" src="../omn_list_base.js"></script>
+	<script type="text/javascript" src="../omnishtmlcontrol.js"></script>    
+
+	<script>
+    jOmnis.callbackObject = {
+        omnisOnLoad: function() {},
+        omnisSetOptions: function(options) {},
+        omnisCssChanged: function() {},
+        omnisSetData: function(value) {},
+        omnisGetData: function() {},
+        omnisGetCurrentLine: function() {},
+        omnisGetSelection: function() {},
+        omnisSetFocus: function() {},
+        omnisTab: function() {},
+        omnisGetDraggedData: function(event) {},
+        omnisDropHilite: function(hiliteLine, destinationId) {},
+        omnisDropUnhilite: function() {},
+        omnisGetDropLine: function(mouseX, mouseY) {},
+        omnisDoScroll: function(scrollDirection, scrollAmount) {},
+        omnisOnWebSocketOpened: function() {},
+        omnisOnWebSocketClosed: function() {},
+	 	printWindow: function ()
+		{
+			window.print();
+		}			
+
+		};
+	</script>
+</head>
+
+<body style="margin:0;" class="omnishtml">
+	<table style="border:1px solid black">
+		<tr>
+			<td style="border:1px solid black">Apple</td>
+			<td style="border:1px solid black">Pink lady</td>
+			<td style="border:1px solid black">Jona Gold</td>
+		</tr>
+		<tr>
+			<td style="border:1px solid black">Pear</td>
+			<td style="border:1px solid black">Green</td>
+			<td style="border:1px solid black">Golden</td>
+		</tr>
+		<tr>
+			<td style="border:1px solid black">Grapes</td>
+			<td style="border:1px solid black">Red</td>
+			<td style="border:1px solid black">Green</td>
+		</tr>
+	</table>
+<br>
+	<button onclick="javascript=window.print()">Print</button>
+</body>
+</html>

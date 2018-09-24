@@ -1,0 +1,93 @@
+{
+	"ident": 1016,
+	"order": 1,
+	"objtype": "kComponent",
+	"componentlib": "OBrowser Library",
+	"componentctrl": "OBrowser Control",
+	"properties": {
+		"active": true,
+		"align": "kLeftJst",
+		"allowjsdraganddrop": false,
+		"alpha": 255,
+		"applycss": false,
+		"backalpha": 255,
+		"backcolor": "kColorWindow",
+		"candropcursor": 0,
+		"contextmenu": "",
+		"cssextra": "",
+		"dataname": "list",
+		"desgroup": 0,
+		"designactive": true,
+		"deslock": false,
+		"disabledefaultcontextmenu": false,
+		"disablefocus": false,
+		"disablepluginsmacos": false,
+		"disablesystemfocus": false,
+		"dragborder": false,
+		"dragiconid": 0,
+		"dragmode": "kNoDragging",
+		"dragobjectbarcolor": "kColorDefault",
+		"dragrange": "kRangeAll",
+		"dropmode": "kAcceptNone",
+		"edgefloat": "kEFposnBottomToolBar",
+		"effect": "kBorderNone",
+		"enabled": true,
+		"fieldstyle": "",
+		"font": 2,
+		"fontsize": 0,
+		"fontstyle": "kPlain",
+		"height": 208,
+		"helpfile": 0,
+		"hiliteline": false,
+		"htmlcontroloptions": {
+			"type": [
+				{
+					"name": "selectedcolor",
+					"order": 1,
+					"type": "kInteger",
+					"subtype": "k64bitint",
+					"sublen": 0
+				},
+				{
+					"name": "margin",
+					"order": 2,
+					"type": "kInteger",
+					"subtype": "k64bitint",
+					"sublen": 0
+				},
+				{
+					"name": "mainiconid",
+					"order": 3,
+					"type": "kInteger",
+					"subtype": "k64bitint",
+					"sublen": 0
+				},
+				{
+					"name": "anothercolor",
+					"order": 4,
+					"type": "kInteger",
+					"subtype": "k64bitint",
+					"sublen": 0
+				}
+			],
+			"data": {
+				"selectedcolor": 255,
+				"margin": 0,
+				"mainiconid": 1710,
+				"anothercolor": 0
+			}
+		},
+		"keyevents": false,
+		"left": 0,
+		"nodropcursor": 0,
+		"objlink": 0,
+		"statusevents": false,
+		"textcolor": "kColorWindowText",
+		"tooltip": "",
+		"top": 80,
+		"urlorcontrolname": "printSample",
+		"userinfo": "",
+		"visible": true,
+		"width": 384
+	}
+}
